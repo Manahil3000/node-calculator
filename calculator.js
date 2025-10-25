@@ -19,5 +19,10 @@ function divide(a, b) {
   return a / b;
 }
 
+function modulus(a,b){
+  if (b === 0) throw new Error("Cannot find modulus with zero divisor");
+  return a % b;
+}
+
 // Export the functions so they can be used in tests
 module.exports = { add, subtract, multiply, divide };
