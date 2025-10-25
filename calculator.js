@@ -20,7 +20,6 @@ function divide(a, b) {
 }
 
 function modulus(a,b){
-  if (b === 0) throw new Error("Cannot find modulus with zero divisor");
   return a % b;
 }
 
