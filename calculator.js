@@ -24,4 +24,4 @@ function modulus(a,b){
 }
 
 // Export the functions so they can be used in tests
-module.exports = { add, subtract, multiply, divide };
+module.exports = { add, subtract, multiply, divide, modulus };
